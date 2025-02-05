@@ -13,9 +13,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
     <style>
-        * {
-            font-family: "Sora", serif;
-        }
+            * {
+                font-family: "Sora", serif;
+            }
     </style>
 </head>
 
@@ -60,8 +60,8 @@
         <section class="py-24">
             <div class="box-section max-w-[85%] mx-auto">
                 <h2 class="text-[28px] font-bold text-[#179800] mb-8">Services</h2>
-                <div class="box-container flex flex-wrap  justify-between gap-4">
-                    <div class="box p-6 rounded-lg bg-[#EFEBE3] w-full md:w-6/12 lg:4/12">
+                <div class="box-container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <div class="box p-6 rounded-lg bg-[#EFEBE3]">
                         <div class="w-[120px] h-[120px] bg-white p-3 rounded-full m-auto mb-3">
                             <img src="images/service.png" alt="">
                         </div>
@@ -69,7 +69,7 @@
                         <p class="text-center text[14px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                             do eiusmod tempor incididunt</p>
                     </div>
-                    <div class="box p-6 rounded-lg bg-[#EFEBE3]  w-full md:w-6/12 lg:4/12">
+                    <div class="box p-6 rounded-lg bg-[#EFEBE3]">
                         <div class="w-[120px] h-[120px] bg-white p-3 rounded-full m-auto mb-3">
                             <img src="images/delivery.png" alt="">
                         </div>
@@ -77,7 +77,7 @@
                         <p class="text-center text[14px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                             do eiusmod tempor incididunt</p>
                     </div>
-                    <div class="box p-6 rounded-lg bg-[#EFEBE3]  w-full md:w-6/12 lg:4/12">
+                    <div class="box p-6 rounded-lg bg-[#EFEBE3]">
                         <div class="w-[120px] h-[120px] bg-white p-3 rounded-full m-auto mb-3">
                             <img src="images/healthy.png" alt="">
                         </div>
@@ -92,20 +92,20 @@
         <section class="py-24 bg-[#EFEBE3]">
             <div class="card-section max-w-[85%] mx-auto">
                 <h2 class="text-[28px] font-bold text-[#179800] mb-8">Popular Products</h2>
-                <div class="card-container flex justify-between gap-4">
+                <div class="card-container flex flex-col md:flex-row gap-4">
                     <div
-                        class="main-card w-[30%] p-5 py-8 rounded-lg relative bg-gradient-to-br from-[#53DB3A] to-white">
-                        <div>
+                        class="main-card w-full md:w-[30%] p-5 py-8 rounded-lg relative bg-gradient-to-br from-[#53DB3A] to-white">
+                        <div class="z-[9] relative">
                             <h2 class="text-[25px] font-medium text-white mb-2">30% Off</h2>
                             <p class="text-[14px] mb-2">Discover a world of treats, toys, and essentials handpicked for
                             </p>
                             <button class="px-7 py-2 bg-white rounded-md">Buy Now</button>
                         </div>
-                        <div class="absolute bottom-0 right-0 w-[70%]">
+                        <div class="absolute bottom-0 right-0 w-[40%] md:w-[70%]">
                             <img src="images/vegetable-offer.png" alt="">
                         </div>
                     </div>
-                    <div class="grid-card grid grid-cols-3 gap-3">
+                    <div class="grid-card grid grid-cols-2 lg:grid-cols-3 gap-5">
                         <!-- Grid-box-1 -->
                         <div class="card-child flex bg-white p-2 rounded-md gap-3 items-center">
                             <div class="p-3 bg-[#EFEBE3] rounded-md "><img src="images/potata.png" alt=""></div>
@@ -148,7 +148,7 @@
                         </div>
                         <!-- Grid-box-5 -->
                         <div class="card-child flex bg-white p-2 rounded-md gap-3 items-center">
-                            <div class="p-3 bg-[#EFEBE3] rounded-md"><img src="images/potata.png"></div>
+                            <div class="p-3 bg-[#EFEBE3] rounded-md"><img src="images/tomato.png"></div>
                             <div>
                                 <p class="mb-1 text-[14px]"><i
                                         class="fa-solid fa-star text-[#FFC107] mr-[8px]"></i><span>4.5</span></p>
@@ -158,7 +158,7 @@
                         </div>
                         <!-- Grid-box-6 -->
                         <div class="card-child flex bg-white p-2 rounded-md gap-3 items-center">
-                            <div class="p-3 bg-[#EFEBE3] rounded-md"><img src="images/potata.png"></div>
+                            <div class="p-3 bg-[#EFEBE3] rounded-md"><img src="images/onion.png"></div>
                             <div>
                                 <p class="mb-1 text-[14px]"><i
                                         class="fa-solid fa-star text-[#FFC107] mr-[8px]"></i><span>4.5</span></p>
@@ -178,7 +178,7 @@
                         </div>
                         <!-- Grid-box-8 -->
                         <div class="card-child flex bg-white p-2 rounded-md gap-3 items-center">
-                            <div class="p-3 bg-[#EFEBE3] rounded-md"><img src="images/potata.png"></div>
+                            <div class="p-3 bg-[#EFEBE3] rounded-md"><img src="images/onion.png"></div>
                             <div>
                                 <p class="mb-1 text-[14px]"><i
                                         class="fa-solid fa-star text-[#FFC107] mr-[8px]"></i><span>4.5</span></p>
@@ -188,25 +188,25 @@
                         </div>
                         <!-- Grid-box-9 -->
                         <div class="card-child flex bg-white p-2 rounded-md gap-3 items-center">
-                            <div class="p-3 bg-[#EFEBE3] rounded-md"><img src="images/potata.png"></div>
+                            <div class="p-3 bg-[#EFEBE3] rounded-md"><img src="images/tomato.png"></div>
                             <div>
                                 <p class="mb-1 text-[14px]"><i
                                         class="fa-solid fa-star text-[#FFC107] mr-[8px]"></i><span>4.5</span></p>
-                                <h4 class="text-[16px] font-semibold mb-1">Onion 1 KG</h4>
+                                <h4 class="text-[16px] font-semibold mb-1">Tomato 500 g</h4>
                                 <p class="text-[14px] font-medium">$39.99</p>
                             </div>
                         </div>
                     </div>
                 </div>
         </section>
-        <section class="pb-[200px]">
+        <section class="pb-[300px] md:pb-[200px]">
             <!-- arrival-section -->
             <div class="arrival-container py-24">
                 <div class="arrival-section max-w-[85%] mx-auto">
                     <h2 class="text-[28px] font-bold text-[#179800] mb-8">Arrival & Offers</h2>
                     <!-- arrival-container-1 -->
-                    <div class="arrival-container flex justify-between gap-4">
-                        <div class="arrival-card flex bg-[#115414] rounded-xl items-center p-6 justify-between w-[60%]">
+                    <div class="arrival-container flex flex-col md:flex-row gap-4">
+                        <div class="arrival-card flex bg-[#115414] rounded-xl items-center p-6 justify-between w-full md:w-[60%]">
                             <div>
                                 <img class="w-[200px]" src="images/dawat-logo.png" alt="">
                                 <p class="text-white bg-[#63B76D] px-6 py-2 text-sm rounded-md mb-3 mt-4 ">Cook Exotic Dishes</p>
@@ -217,7 +217,7 @@
                             </div>
                         </div>
                         <!-- arrival-container-2 -->
-                        <div class="arrival-card flex bg-[#102861] rounded-xl items-center p-6 justify-between w-[40%]">
+                        <div class="arrival-card flex bg-[#102861] rounded-xl items-center p-6 justify-between w-full md:w-[40%]">
                             <div>
                                 <img class="w-[100px]" src="images/india-gate-logo.png" alt="">
                                 <p class="text-white bg-[#2A4D97] px-6 py-2 text-sm rounded-md mb-3 mt-4 ">World’s No.1 Rice</p>
@@ -233,33 +233,33 @@
         </section>
 
     </main>
-    <footer class="py-[100px] bg-[#179800] pt-[240px] relative">
+    <footer class="py-[100px] bg-[#179800] pt-[300px] md:pt-[240px] relative">
         <!-- footer-section -->
          <div class="footer-container max-w-[85%] mx-auto">
-            <div class="flex justify-between gap-[20px] items-center bg-[#EFEBE3] p-8 rounded-[20px] absolute top-[-30%] w-[85%]">
-                <div class="n-img w-6/12">
+            <div class="flex flex-col md:flex-row justify-between gap-[20px] items-center bg-[#EFEBE3] p-8 rounded-[20px] absolute top-[-35%] md:top-[-30%] w-[85%]">
+                <div class="n-img w-[70%] md:w-6/12">
                     <img class="w-[250px] mx-auto" src="images/vegetable-busket.png" alt="">
                 </div>
-                <div class="n-content w-6/12">
+                <div class="n-content w-full md:w-6/12">
                     <h3 class="text-[24px]  font-semibold mb-5">Get Grocery News!</h3>
                     <p class="text-[14px] font-normal  mb-5">Exclusive training tips, ticks, product deals and more.</p>
                     <input class="px-4 py-3 block w-full mb-5 rounded-md" placeholder="Enter Email" type="text">
                     <button class="text-white text-[15px] font-medium px-4 py-2 rounded-lg bg-[#179800]">Subscribe</button>
                 </div>
             </div>
-            <div class="footer-parent flex justify-between ">
-                <div class="w-1/3">
-                    <img class="mb-2" src="images/logo-footer.png" alt="">
+            <div class="footer-parent flex flex-col md:flex-row gap-8 justify-between ">
+                <div class="w-full md:w-1/3">
+                    <img class="mb-4" src="images/logo-footer.png" alt="">
                     <p class="text-[14px] text-white">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
                 </div>
-                <div class="w-1/3 flex justify-center text-white">
+                <div class="w-full md:w-1/3 justify-start flex md:justify-center text-white">
                     <ul>
                         <li><a href=""></a>Product</li>
                         <li><a href=""></a>Services</li>
                         <li><a href=""></a>Contact us</li>
                     </ul>
                 </div>
-                <div class="w-1/3 flex flex-col items-center text-white">
+                <div class="w-full md:w-1/3 flex flex-col items-start md:items-center text-white">
                     <h3 class="mb-4">Follow Us</h3>
                     <div class="flex gap-5"><a href=""><i class="fa-brands fa-facebook"></i></a>
                         <a href=""><i class="fa-brands fa-instagram"></i></a>
